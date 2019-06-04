@@ -13,13 +13,13 @@ tr, td {
 }
 
 tr:nth-of-type(2n + 1) td:nth-of-type(2n + 1) {
-  background-color: black;
+  background-color: rgb(188, 223, 229);
   animation: spin 5s linear infinite;
 }
 
 tr:nth-of-type(2n) td:nth-of-type(2n) {
-  background-color: black;
-  animation: spin 10s linear infinite;
+  background-color: rgb(145, 181, 187);
+  animation: spin 8s linear infinite;
 }
 
 @keyframes spin {
